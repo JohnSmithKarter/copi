@@ -1,0 +1,250 @@
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    # --- Форматирование и стиль
+    # Использовать одинарные кавычки
+    prefer_single_quotes: true
+    # Конструкторы в начале класса
+    sort_constructors_first: true
+    # Использовать const конструкторы
+    prefer_const_constructors: true
+    # Использовать const объявления
+    prefer_const_declarations: true
+    # Требовать запятые в конце для многострочных параметров
+    require_trailing_commas: true
+    # child всегда последний параметр
+    sort_child_properties_last: true
+    # required параметры в начале
+    always_put_required_named_parameters_first: true
+    # Обязательное указание типа возвращаемого значения
+    always_declare_return_types: true
+    # Добавлять аннотации переопределений
+    annotate_overrides: true
+    # Избегать использования bool литералов в условных выражениях
+    avoid_bool_literals_in_conditional_expressions: true
+    # Избегать динамических вызовов
+    avoid_dynamic_calls: true
+    # Избегать пустых else
+    avoid_empty_else: true
+    # Избегать equals и hashCode на изменяемых классах
+    avoid_equals_and_hash_code_on_mutable_classes: true
+    # Избегать экранирования внутренних кавычек
+    avoid_escaping_inner_quotes: true
+    # Избегать final параметров
+    avoid_final_parameters: false
+    # Избегать init_to_null
+    avoid_init_to_null: true
+    # Избегать множественных объявлений в одной строке
+    avoid_multiple_declarations_per_line: true
+    # Избегать возвращаемых типов на сеттерах
+    avoid_return_types_on_setters: true
+    # Избегать возвращаемых null для void
+    avoid_returning_null_for_void: true
+    # Избегать возвращаемых this
+    avoid_returning_this: true
+    # Избегать однокаскадных выражений в операторных выражениях
+    avoid_single_cascade_in_expression_statements: true
+    # Избегать использования type_to_string
+    avoid_type_to_string: true
+    # Избегать неиспользуемых конструкторных параметров
+    avoid_unused_constructor_parameters: true
+    # Избегать void async
+    avoid_void_async: true
+    # Избегать использования web библиотек в flutter (отключить если используются!)
+    avoid_web_libraries_in_flutter: true
+    # Избегать использования await для всего, что не является будущим
+    await_only_futures: true
+    # Используйте каскадный стиль при последовательном вызове методов для одной и той же ссылки
+    cascade_invocations: true
+    # Порядок комбинаторов
+    combinators_ordering: true
+    # Ссылки в комментариях
+    comment_references: false
+    # Использовать фигурные скобки в управляющих структурах
+    curly_braces_in_flow_control_structures: true
+    # Избегать отброшенных будущих значений
+    discarded_futures: true
+    # Явно помечать fire-and-forget futures через unawaited(...)
+    unawaited_futures: true
+    # Избегать пустых catch
+    empty_catches: true
+    # Добавлять новую строку в конце файла
+    eol_at_end_of_file: true
+    # Стиль TODO's
+    flutter_style_todos: true
+    # Объединять return с присваиванием
+    join_return_with_assignment: true
+    # Строки длиной более 80 символов
+    lines_longer_than_80_chars: false
+    # Соответствие супер-параметров
+    matching_super_parameters: true
+    # Избегать сравнения bool литералов
+    no_literal_bool_comparisons: true
+    # Избегать пустых операций с примитивными типами
+    noop_primitive_operations: true
+    # Предпочитать использование коллекционных литералов
+    prefer_collection_literals: true
+    # Предпочитать условное присваивание
+    prefer_conditional_assignment: true
+    # Предпочитать выражения в функциях
+    prefer_expression_function_bodies: true
+    # Предпочитать объявления функций вместо переменных
+    prefer_function_declarations_over_variables: false
+    # Предпочитать использовать ?? операторы
+    prefer_if_null_operators: true
+    # Предпочитать интерполяцию строк вместо конкатенации
+    prefer_interpolation_to_compose_strings: true
+    # Предпочитать использовать ! оператор
+    prefer_is_not_operator: true
+    # Предпочитать null вызовы методов с поддержкой ?.call()
+    prefer_null_aware_method_calls: true
+    # Предпочитать использовать null поддерживающие операторы v = a?.b
+    prefer_null_aware_operators: true
+    # Предпочитать использовать spread операторы
+    prefer_spread_collections: true
+    # Предпочитать использовать void вместо null
+    prefer_void_to_null: true
+    # Не создавайте рекурсивные геттеры.
+    recursive_getters: true
+    # Предпочитать использовать /// для комментариев
+    slash_for_doc_comments: true
+    # Сортировать зависимости pubs в алфавитном порядке
+    sort_pub_dependencies: false
+    # Избегать использования лишних фигурных скобок в строковых интерполяциях
+    unnecessary_brace_in_string_interps: true
+    # Избегать использования лишних лямбд
+    unnecessary_lambdas: true
+    # Избегать использования ненужных late
+    unnecessary_late: true
+    # Избегать использования ненужных переопределений
+    unnecessary_overrides: true
+    # Избегать использования лишних скобок
+    unnecessary_parenthesis: true
+    # Избегать использования лишних строковых интерполяций
+    unnecessary_string_interpolations: true
+    # Избегать использования лишних this
+    unnecessary_this: true
+    # Избегать использования лишних toList в spread
+    unnecessary_to_list_in_spreads: true
+    # Предпочитать использовать use_colored_box
+    use_colored_box: true
+    # Предпочитать использовать use_decorated_box
+    use_decorated_box: true
+    # Предпочитать использовать isEven, isOdd
+    use_is_even_rather_than_modulo: true
+    # Предпочитать использовать именованные константы
+    use_named_constants: true
+    # Предпочитать использовать truncating_division
+    use_truncating_division: true
+
+
+    # --- Ошибки
+    # Избегать catch без on-клаузы
+    avoid_catches_without_on_clauses: true
+    # Избегать обнаружения ошибок
+    avoid_catching_errors: true
+    # Приводить nullable к non-nullable
+    cast_nullable_to_non_nullable: true
+    # Контроль потока в finally
+    control_flow_in_finally: true
+    # Закрытие null-замыканий
+    null_closures: true
+    # Выбрасывание только экземпляров классов, которые расширяют dart.core.Error
+    only_throw_errors: false
+    # Избегайть throw в finally блоке
+    throw_in_finally: true
+    # Аннотировать публичные API
+    type_annotate_public_apis: true
+    # Проверять регулярные выражения
+    valid_regexps: true
+
+    # --- Зависимости
+    # Используемые пакеты должны быть явно прописаны в pubspec.yaml
+    depend_on_referenced_packages: true
+
+
+    # --- Производительность
+    # Избегать лишних Container
+    avoid_unnecessary_containers: true
+    # Использовать ключи в конструкторах виджетов
+    use_key_in_widget_constructors: true
+    # Избегать избыточных значений аргументов
+    avoid_redundant_argument_values: true
+    # Использовать логгер вместо print
+    avoid_print: true
+    # Избегать медленных асинхронных операций ввода-вывода
+    avoid_slow_async_io: true
+    # Отмена подписок
+    cancel_subscriptions: true
+    # Закрытие подписок
+    close_sinks: true
+    # Использовать методы коллекций с соответствующим типом
+    collection_methods_unrelated_type: true
+    # Предпочитать final поля
+    prefer_final_fields: true
+    # Предпочитать final в for-each
+    prefer_final_in_for_each: true
+    # Предпочитать final локальные переменные
+    prefer_final_locals: true
+    # Отдавайте предпочтение for элементам при построении карт из повторяющихся объектов.
+    prefer_for_elements_to_map_fromIterable: true
+    # Предпочитать isEmpty вместо length == 0
+    prefer_is_empty: true
+    # Предпочитать isNotEmpty вместо length > 0
+    prefer_is_not_empty: true
+    # Предпочитать использовать именованные конструкторы SizedBox shrink и expand
+    sized_box_shrink_expand: true
+    
+
+    # --- Архитектурные правила
+    # Разрешаем классы только со статическими членами
+    avoid_classes_with_only_static_members: false
+    # Запрещаем относительные импорты из lib
+    avoid_relative_lib_imports: true
+    # Правильный порядок импортов (сначала dart импорты, потом flutter, потом пакеты, потом локальные файлы)
+    directives_ordering: true
+    # Предпочитать относительные импорты внутри модуля
+    prefer_relative_imports: false
+    # Использовать build_context_synchronously
+    use_build_context_synchronously: true
+
+
+    # --- Именование
+    # Типы в camelCase
+    camel_case_types: true
+    # Расширения в camelCase
+    camel_case_extensions: true
+    # Файлы в snake_case
+    file_names: true
+    # Имена констант в snake_case
+    constant_identifier_names: true
+    # Имена библиотек в snake_case
+    library_names: true
+    # Префиксы библиотек в snake_case
+    library_prefixes: true
+
+analyzer:
+  language:
+    strict-casts: true
+    strict-inference: true
+    strict-raw-types: true
+  exclude:
+    # Web
+    - 'web/**'
+    # Build
+    - 'build/**'
+    # Generated code
+    - "**/*.g.dart"
+    - "**/*.freezed.dart"
+    - "**/*.gen.dart"
+    - "**/*.config.dart"
+    - "**/*.mocks.dart"         
+    - "test/**"
+    - '.test_coverage.dart'
+    - 'lib/**/*.graphql.dart'
+    - android/**
+    - ios/**
+    - windows/**
+    - macos/**
+    - linux/**

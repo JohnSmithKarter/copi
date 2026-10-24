@@ -1,0 +1,111 @@
+{
+  "appName": "copi",
+  "home": {
+    "presets": "Copies",
+    "settings": "Settings",
+    "noAccess": "No access",
+    "allow": "Allow",
+    "empty": "Empty",
+    "disks": "Disks",
+    "roots": {
+      "home": "Home",
+      "desktop": "Desktop",
+      "documents": "Documents",
+      "downloads": "Downloads"
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "accent": "Accent",
+    "language": "Language",
+    "files": "Files",
+    "showHidden": "Show hidden files",
+    "russian": "Русский",
+    "english": "English",
+    "permissions": "Folders",
+    "version": "Version",
+    "logs": "Logs",
+    "granted": "Allowed",
+    "missing": "Not allowed"
+  },
+  "presets": {
+    "title": "Copies",
+    "newTitle": "New copy",
+    "empty": "No copies yet",
+    "create": "Create a copy",
+    "name": "Name",
+    "nameHint": "Monthly backup",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "run": "Run",
+    "source": "From",
+    "destination": "To",
+    "addPair": "Another folder",
+    "remove": "Remove",
+    "clear": "Clear",
+    "mode": "Mode",
+    "mirror": "Match source",
+    "additive": "New and changed",
+    "mirrorHint": "The folder is copied into the chosen place under its own name and then matches the source",
+    "additiveHint": "The folder is copied into the chosen place under its own name. New and changed files are added there, older files stay",
+    "needBoth": "Choose a folder on each side",
+    "needSource": "Choose the folder to copy on the left",
+    "needDestination": "Choose the folder or disk to put it in on the right",
+    "sameFolder": "The folders on the left and right must be different",
+    "needName": "Name the copy",
+    "pairCount": "{count} folders",
+    "deleteTitle": "Delete this copy?",
+    "deleteBody": "The saved folders are removed. Files on disk stay.",
+    "cancel": "Cancel",
+    "help": {
+      "title": "How to use",
+      "chooseTitle": "From and to",
+      "choose": "On the left, choose the folder to copy. On the right, choose the folder or disk to put it in. Tap a name to select the folder. The arrow only opens it. Tap the same row again, or the cross on the chip, to clear the choice. The folder is copied into the chosen place under its own name.",
+      "modeTitle": "Mode",
+      "mode": "Match source makes the copied folder the same as the source and removes extras inside it. New and changed adds new and changed files and leaves older files in place.",
+      "moreTitle": "Several folders",
+      "more": "Another folder remembers the current pair and clears the choice so you can pick the next one. Every pair is saved under one name and runs together. With a single folder you can skip that button: Save takes whatever is selected now.",
+      "sameNameTitle": "Same names",
+      "sameName": "If the disk already has a file with that name, copying asks you to replace it, keep both, or skip it. Keep both adds “ (1)” to the copy’s name. Apply to all repeats the choice for the rest of the run. In Match source, that “ (1)” copy is removed on the next run, because it is not in the source."
+    }
+  },
+  "sync": {
+    "title": "Sync",
+    "scanning": "Looking through folders",
+    "copying": "Copying",
+    "deleting": "Removing extra files",
+    "done": "Done",
+    "error": "Could not finish",
+    "cancelled": "Cancelled",
+    "cancel": "Cancel",
+    "close": "Close",
+    "now": "Now",
+    "progress": "{done} of {total}",
+    "conflictTitle": "Same name",
+    "conflictBody": "“{name}” is already on the disk.",
+    "conflictReplace": "Replace",
+    "conflictKeepBoth": "Keep both",
+    "conflictSkip": "Skip",
+    "conflictApplyToAll": "Apply to all"
+  },
+  "about": {
+    "title": "About",
+    "goalTitle": "Why it exists",
+    "goal": "copi copies local folders onto another disk for you. Choose the folders you usually drag by hand, save a copy, and run it again next time.",
+    "canTitle": "What it does",
+    "can": "It remembers folder pairs and copies everything inside: ordinary files, hidden files, and links. New and changed files are copied again. Match source removes anything the folder no longer has. Progress stays on screen, and you can cancel.",
+    "limitsTitle": "Limits",
+    "limits": "A file counts as the same when its size and date match, without a content hash. A link is copied as a link, so a file outside the folder is not pulled in. Finder tags, permissions, and other macOS attributes are not copied. Windows is not supported yet."
+  },
+  "logs": {
+    "title": "Logs"
+  },
+  "errors": {
+    "destinationUnavailable": "The destination disk is unavailable. Nothing was deleted.",
+    "sameLocation": "Source and destination are the same folder.",
+    "accessDenied": "A folder could not be opened. Nothing was copied.",
+    "fileFailed": "A file could not be handled. What was already done stays on the disk.",
+    "bookmark": "The folder permission could not be saved."
+  }
+}
