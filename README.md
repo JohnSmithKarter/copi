@@ -74,7 +74,7 @@ flutter run -d macos
 ./scripts/build_dmg.sh
 ```
 
-Скрипт кладёт диск в `dist/copi.dmg`, само приложение остаётся в `build/macos/Build/Products/Release/copi.app`. Чтобы эта сборка попала на страницу скачивания, её прикладывают к новому релизу на GitHub с тем же именем файла.
+Скрипт кладёт диск в `dist/copi.dmg`, само приложение остаётся в `build/macos/Build/Products/Release/copi.app`.
 
 ## Лицензия
 
