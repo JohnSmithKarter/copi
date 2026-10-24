@@ -56,7 +56,7 @@
 
 Проверено на этой машине (`flutter doctor`):
 
-- Flutter stable **3.44.4** (macOS, Apple Silicon)
+- Flutter stable **3.47.7** (macOS, Apple Silicon)
 - Xcode **27.0**
 
 Предупреждение про лицензии Android SDK на запуск macOS-приложения не влияет. Для Windows-сборки оно тоже не нужно.
